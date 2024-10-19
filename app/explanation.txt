@@ -1,0 +1,15 @@
+In the provided code, a JavaScript object called priorityOrder is used as a data structure to define
+the priority levels of tasks. Here’s a brief explanation:
+
+Data Structure Used: Object
+Purpose: The priorityOrder object maps task priority levels (high, medium, low) to numerical 
+values (1, 2, 3). This allows for easy comparison during sorting.
+
+Key-Value Pairs:
+
+Keys: Strings representing priority levels ('high', 'medium', 'low').
+Values: Numbers that represent the order of priority (1 for high, 2 for medium, 3 for low).
+Sorting Logic:
+
+The sort function compares the numerical values associated with each task's priority. 
+By subtracting the values, tasks are sorted in ascending order of priority (higher priorities come first).
